@@ -1,21 +1,21 @@
 {
   "name": "homebridge-rflink-gateway",
   "version": "0.1.2",
-  "description": "This directly bridges RFLink to homebridge https://github.com/nfarina/homebridge",
+  "description": "This directly bridges RFLink to homebridge https://github.com/maclaf/homebridge-rflink.git",
   "license": "ISC",
   "author": {
     "name": "Marcel Laurijsse",
-    "url": "https://github.com/mlaurijsse/homebridge-rflink"
+    "url": "https://github.com/maclaf/homebridge-rflink.git"
   },
   "keywords": [
     "homebridge-plugin"
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/mlaurijsse/homebridge-rflink.git"
+    "url": "git://github.com/maclaf/homebridge-rflink.git"
   },
   "bugs": {
-    "url": "http://github.com/mlaurijsse/homebridge-rflink/issues"
+    "url": "http://github.com/maclaf/homebridge-rflink/issues"
   },
   "engines": {
     "node": ">=8.0.0",

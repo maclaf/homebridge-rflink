@@ -225,7 +225,7 @@ RFLinkAccessory.prototype.setOn = function(on, callback, context) {
       cmd = '10;' +
           this.device.protocol + ';' +
           this.device.address + ';' +
-          this.channel + (on?";ON;\n":";OFF;\n");
+          this.channel + (on?";DOWN;\n":";UP;\n");
     }
 
     if (cmd != this.lastCommand) {
